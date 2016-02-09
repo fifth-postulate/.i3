@@ -165,3 +165,4 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
 
 exec xautolock -time 5 -locker 'i3lock --color=000000 --nofork'
 exec --no-startup-id emacs -daemon
+exec --no-startup-id feh --bg-scale ~/Pictures/moon.jpg
