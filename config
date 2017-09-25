@@ -205,3 +205,4 @@ exec xautolock -time 5 -locker 'i3lock --color=$base01 --nofork'
 exec --no-startup-id emacs -daemon
 exec --no-startup-id feh --bg-scale ~/Pictures/moon.jpg
 exec --no-startup-id dropbox start
+exec --no-startup-id nm-applet
